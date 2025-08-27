@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arborização Escolar em Potengi-CE — Conforto Térmico e Aprendizagem</title>
+  <meta name="description" content="Projeto: A arborização como estratégia para melhorar o conforto térmico e o desempenho escolar nas escolas de Potengi-CE." />
+  <style>
+    :root{
+      --green:#2e7d32;
+      --green-dark:#1b5e20;
+      --green-soft:#81c784;
+      --bg:#f4f9f4;
+      --text:#263238;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      line-height:1.7;
+      color:var(--text);
+      background:var(--bg);
+    }
+    header{
+      background:linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+      color:#fff;
+      padding:64px 20px 72px;
+      text-align:center;
+    }
+    header h1{
+      margin:0 0 8px;
+      font-size: clamp(28px, 4vw, 44px);
+      letter-spacing:.3px;
+    }
+    header p{margin:6px 0 0; opacity:.95}
+    .badge{
+      display:inline-block;
+      margin-top:12px;
+      padding:6px 12px;
+      border:1px solid rgba(255,255,255,.4);
+      border-radius:999px;
+      font-size:14px;
+      opacity:.9;
+    }
+    nav{
+      position:sticky; top:0; z-index:10;
+      background:var(--green-dark);
+      padding:10px 14px;
+      box-shadow:0 4px 10px rgba(0,0,0,.08);
+    }
+    nav .wrap{max-width:1100px; margin:auto; display:flex; gap:12px; flex-wrap:wrap; justify-content:center}
+    nav a{
+      color:#fff; text-decoration:none; padding:8px 10px; border-radius:6px; font-weight:600; font-size:14px;
+    }
+    nav a:hover{background:rgba(255,255,255,.12)}
+    main{max-width:1100px; margin:auto; padding:28px 18px 64px}
+    section{margin:36px 0}
+    h2{
+      color:var(--green);
+      border-bottom:3px solid var(--green-soft);
+      padding-bottom:6px;
+      margin-top:0;
+      font-size: clamp(22px, 3.2vw, 30px);
+    }
+    .grid{
+      display:grid; gap:18px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .card{
+      background:#fff; border:1px solid #e6efe6; border-radius:12px; padding:16px 18px;
+      box-shadow:0 2px 6px rgba(0,0,0,.04);
+    }
+    ul{margin:0 0 0 18px}
+    .authors{opacity:.85; font-size:14px}
+    .blockquote{
+      border-left:4px solid var(--green-soft);
+      padding:10px 14px; background:#fff; border-radius:8px; margin:12px 0;
+      font-style:italic;
+    }
+    .gallery{
+      display:grid; gap:14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .gallery figure{margin:0}
+    .gallery img{width:100%; height:220px; object-fit:cover; border-radius:10px; border:1px solid #e6efe6;background:#fff}
+    .small{font-size:13px; opacity:.8}
+    footer{
+      background:var(--green); color:#fff; text-align:center; padding:28px 16px;
+    }
+    .kpi{
+      display:grid; grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); gap:12px; margin-top:10px
+    }
+    .kpi .card{ text-align:center}
+    .kpi .value{ font-size:26px; font-weight:800; color:var(--green-dark)}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arborização Escolar em Potengi-CE</h1>
+    <p>Conforto térmico &middot; Aprendizagem &middot; Sustentabilidade</p>
+    <div class="badge">Projeto desenvolvido por estudantes da EEMTI Menezes Pimentel</div>
+  </header>
+
+  <nav>
+    <div class="wrap">
+      <a href="#sobre">Sobre</a>
+      <a href="#objetivos">Objetivos</a>
+      <a href="#justificativa">Justificativa</a>
+      <a href="#fundamentacao">Fundamentação</a>
+      <a href="#metodologia">Metodologia</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#bibliografia">Bibliografia</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre o projeto</h2>
+      <p>
+        O projeto investiga como a <strong>arborização</strong> pode melhorar o <strong>conforto térmico</strong> e favorecer o <strong>desempenho escolar</strong> nas escolas públicas de Potengi-CE,
+        especialmente no contexto do <em>semiárido</em>. Foram contempladas a <strong>EEF Antônio Figueiredo Taveira</strong> (zona urbana) e a <strong>EMEF Maria Virgem da Silva</strong> (zona rural).
+      </p>
+      <p class="authors"><strong>Autores(as):</strong> Agatha Sawanny Souza Amarante; Ana Clara Firmino Ribeiro; Ananda Julia Alves Rodrigues; Arthur Hemmano de Moura Oliveira; Diogo Teixeira da Silva; Higor Fernando Ribeiro Alencar; Iasmin Gonçalves Almeida; José Eric Firmino Rodrigues; Maria Lua Guedes Alencar Pereira; Océlio Renan de Sousa; Tallisson Luís Alves.</p>
+      <div class="blockquote">Como reduzir o calor de forma econômica, educacional e sustentável nos ambientes escolares?</div>
+    </section>
+
+    <section id="objetivos">
+      <h2>Objetivos</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Geral</h3>
+          <p>Avaliar como a arborização influencia o conforto térmico e a qualidade da aprendizagem nas escolas de Potengi-CE.</p>
+        </div>
+        <div class="card">
+          <h3>Específicos</h3>
+          <ul>
+            <li>Analisar o nível de arborização nas escolas públicas de Potengi-CE.</li>
+            <li>Identificar os efeitos do conforto térmico no rendimento escolar.</li>
+            <li>Engajar alunos(as) e gestores(as) no plantio de árvores.</li>
+            <li>Propor estratégias sustentáveis para ambientes escolares mais confortáveis.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="justificativa">
+      <h2>Justificativa</h2>
+      <p>
+        Altas temperaturas prejudicam a concentração, o bem-estar e o desempenho dos estudantes. A arborização é uma solução de baixo custo que cria
+        <em>microclimas</em> mais amenos, reduz o uso de equipamentos de climatização e fortalece a educação ambiental com participação ativa da comunidade escolar.
+      </p>
+    </section>
+
+    <section id="fundamentacao">
+      <h2>Fundamentação teórica (resumo)</h2>
+      <p>
+        A arborização urbana, praticada desde civilizações antigas, associa-se à saúde ambiental e à qualidade de vida (Massad, 2018; Bohrer et al., 2018).
+        Na Geografia, a vegetação reduz a temperatura do ar, aumenta a umidade relativa e cria microclimas (Santos, 1996; Ross, 2006).
+      </p>
+      <p>
+        Em contexto escolar, as árvores amenizam o calor, reduzem o estresse e favorecem a aprendizagem; sua presença também tem dimensão simbólica e de pertencimento.
+      </p>
+      <div class="small">Referências completas estão na seção Bibliografia.</div>
+    </section>
+
+    <section id="metodologia">
+      <h2>Metodologia</h2>
+      <ul>
+        <li>Diagnóstico da arborização nas escolas (mapa verde e áreas prioritárias).</li>
+        <li>Parceria com a Secretaria Municipal de Agricultura e Meio Ambiente para obtenção de <strong>25 mudas</strong>.</li>
+        <li>Seleção de espécies adequadas: <em>Handroanthus impetiginosus</em> (Ipê-roxo), <em>Spondias mombin</em> (Cajá), <em>Cestrum nocturnum</em> (Dama-da-noite), entre outras.</li>
+        <li>Aplicação de questionários com estudantes sobre sensação térmica e aprendizado.</li>
+        <li>Realização do “Dia do Plantio” nas duas escolas e acompanhamento do crescimento das mudas.</li>
+        <li>Divulgação do projeto e resultados em feiras científicas e em perfis de redes sociais (“Plantio Consciente”).</li>
+      </ul>
+    </section>
+
+    <section id="resultados">
+      <h2>Resultados & Discussão</h2>
+      <div class="kpi">
+        <div class="card">
+          <div class="value">91,6%</div>
+          <div>Relataram desconforto térmico na EEF Antônio Figueiredo Taveira (55 de 60)</div>
+        </div>
+        <div class="card">
+          <div class="value">93,1%</div>
+          <div>Relataram desconforto térmico na EMEF Maria Virgem da Silva (27 de 29)</div>
+        </div>
+        <div class="card">
+          <div class="value">86%–88%</div>
+          <div>Dificuldade de concentração devido ao calor, ambas as escolas</div>
+        </div>
+      </div>
+      <p>
+        Sintomas mais citados: <strong>cansaço</strong>, <strong>dificuldade de concentração</strong> e <strong>irritação</strong>.
+        Alunos identificaram a <strong>falta de ventilação</strong> e o <strong>excesso de calor externo</strong> como principais causas.
+      </p>
+      <p>
+        A percepção sobre arborização difere entre as escolas: 76% na Taveira consideram haver poucas áreas arborizadas; já na Maria Virgem, a maioria percebe
+        melhor arborização, possivelmente por se tratar de escola em <em>área rural</em>.
+      </p>
+      <p>
+        Engajamento estudantil: na Maria Virgem, <strong>93,1%</strong> dos estudantes participariam de ações de plantio e cuidado; na Taveira, <strong>55%</strong> disseram que participariam.
+      </p>
+      <p class="blockquote">
+        Conclusão: os dados confirmam desconforto térmico significativo e apoio amplo à arborização como estratégia para melhorar o ambiente de aprendizagem.
+      </p>
+    </section>
+
+    <section id="bibliografia">
+      <h2>Bibliografia (seleção)</h2>
+      <ul>
+        <li>DUARTE, T. E. P. N.; ANGEOLETTO, F.; SANTOS, J. W. M. C.; SILVA, F. F.; BOHRER, J. F. C.; MASSAD, L. <em>Reflexões sobre arborização urbana</em>. Revista em Agronegócio e Meio Ambiente, 2018.</li>
+        <li>REIS, M. S. <em>Estratégias de adaptação para o conforto térmico em ambiente escolar</em>. UFT, 2023.</li>
+        <li>ABNT. <em>NBR 15220 — Desempenho térmico de edificações</em>. 2005.</li>
+        <li>IPCC. <em>Relatório sobre mudanças climáticas e adaptação</em>. 2023.</li>
+        <li>AMORIM, M. C. C. <em>Urbanização e microclima</em>. 2000.</li>
+      </ul>
+      <div class="small">Veja o documento completo do projeto para a bibliografia integral.</div>
+    </section>
+
+    <section id="galeria">
+      <h2>Galeria</h2>
+      <div class="gallery">
+        <figure>
+          <img src="imagens/foto1.jpg" alt="Reunião com a Secretaria Municipal de Agricultura e Meio Ambiente">
+          <figcaption class="small">Reunião com a Secretaria de Agricultura e Meio Ambiente</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/foto2.jpg" alt="Aplicação de questionários">
+          <figcaption class="small">Aplicação de questionários</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/foto3.jpg" alt="Dia do Plantio">
+          <figcaption class="small">Dia do Plantio</figcaption>
+        </figure>
+        <figure>
+          <img src="imagens/foto4.jpg" alt="Estudantes cuidando das mudas">
+          <figcaption class="small">Estudantes cuidando das mudas</figcaption>
+        </figure>
+      </div>
+      <p class="small">Troque as imagens por fotos reais do projeto. Mantenha os nomes dos arquivos ou ajuste os caminhos no HTML.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Escola de Ensino Médio em Tempo Integral Menezes Pimentel — Potengi/CE.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Projeto “Arborização Escolar — Potengi/CE”. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
